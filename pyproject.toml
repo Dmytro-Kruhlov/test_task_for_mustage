@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "test-task-for-mustage"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro-Kruhlov <hazzy1451@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+sqlalchemy = "^2.0.30"
+pandas = "^2.2.2"
+aiogram = "^3.7.0"
+apscheduler = "^3.10.4"
+openpyxl = "^3.1.4"
+selenium = "^4.21.0"
+webdriver-manager = "^4.0.1"
+xlsxwriter = "^3.2.0"
+pydantic = "^2.7.4"
+pydantic-settings = "^2.3.3"
+pytest = "^8.2.2"
+pytest-asyncio = "^0.23.7"
+pytest-mock = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
